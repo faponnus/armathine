@@ -14,7 +14,7 @@ Rôle: définit les constantes pour tout le programme
 #define LARGEUR_FENETRE 800
 #define HAUTEUR_FENETRE 600
 
-enum {gauche, droite, droite_baton1 };
+enum {gauche, droite, droite_baton1, droite_baton2 };
 
 #endif
 
