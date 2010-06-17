@@ -14,7 +14,8 @@ Rôle: définit les constantes pour tout le programme
 #define LARGEUR_FENETRE 800
 #define HAUTEUR_FENETRE 600
 
-enum {gauche, droite, droite_baton1, droite_baton2 };
+enum {GAUCHE,DROITE};
+enum {VILLE, VILLE_SEL, MONDE, MONDE_SEL}; //pour la carte du monde
 
 #endif
 
