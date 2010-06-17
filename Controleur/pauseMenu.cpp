@@ -10,7 +10,7 @@ Rôle: redirige l'utilisateur après le clique sur la souris
 
 #include "pauseMenu.h"
 
-void attendre()
+void attendre(SDL_Surface *ecran)
 {
 	Coordonnees souris;
 	int reponse=0;
@@ -31,14 +31,17 @@ void attendre()
 				reponse=clique(souris);	
 				if (reponse==3)
 				{
+					jouer(ecran);
 					continuer=false;
 				}
 			        if (reponse==2)
 				{
+					jouer(ecran);
 					continuer=false;
 				}
 				if (reponse==1)
 				{
+					jouer(ecran);
 					continuer=false;
 				}
 					

@@ -13,5 +13,7 @@ void jouer (SDL_Surface *ecran)
 {
 	//on affiche la carte du monde et on récupère la zone selectionnée
 	int noZone;
-	noZone=afficherCarte();
+	noZone=afficherCarte(ecran);
+
+
 }
