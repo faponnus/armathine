@@ -14,7 +14,7 @@ int afficherCarte(SDL_Surface *ecran)
 	SDL_FillRect(ecran, NULL, SDL_MapRGB(ecran->format, 255, 255, 255)); /* On efface l'écran */
 	
 	//on prépare la cartei
-	int continuer =0;
+	int continuer =1;
    	SDL_Event event;
 
 	SDL_Surface *carte;
