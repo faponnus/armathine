@@ -15,5 +15,4 @@ void jouer (SDL_Surface *ecran)
 	int noZone;
 	noZone=afficherCarte(ecran);
 
-
 }

@@ -7,7 +7,7 @@
 #include"../Model/Coordonnees.h"
 #include"jouer.h"
 
-void attendre();
+void attendre(SDL_Surface *ecran);
 int clique(Coordonnees position);
 
 #endif

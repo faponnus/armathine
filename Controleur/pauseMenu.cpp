@@ -31,12 +31,10 @@ void attendre(SDL_Surface *ecran)
 				reponse=clique(souris);	
 				if (reponse==3)
 				{
-					jouer(ecran);
 					continuer=false;
 				}
 			        if (reponse==2)
 				{
-					jouer(ecran);
 					continuer=false;
 				}
 				if (reponse==1)

@@ -21,7 +21,7 @@ void afficherMenu(SDL_Surface *ecran)
 	SDL_BlitSurface(imageDeFond, NULL, ecran, &positionFond);
 
    	SDL_Flip(ecran);
-	attendre();
+	attendre(ecran);
 	
 	SDL_FreeSurface(imageDeFond); /* On libère la surface */
 
