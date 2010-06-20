@@ -16,6 +16,6 @@ struct Lieu
 {
 	Coordonnees position;
 	int statut;
-}
+};
 	
 #endif

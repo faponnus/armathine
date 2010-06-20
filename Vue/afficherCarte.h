@@ -3,6 +3,7 @@
 
 #include <iostream>
 #include <SDL/SDL.h>
+#include "../Controleur/insererLieux.h"
 
 int afficherCarte(SDL_Surface *ecran);
 

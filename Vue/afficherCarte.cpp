@@ -41,6 +41,8 @@ int afficherCarte(SDL_Surface *ecran)
         	// Effacement de l'écran
        	SDL_FillRect(ecran, NULL, SDL_MapRGB(ecran->format, 0, 0, 0));
         SDL_BlitSurface(carte, NULL, ecran, &position);
+	insererLieux(ecran);
+
         SDL_Flip(ecran);
    	} 
 	SDL_FreeSurface(carte);
